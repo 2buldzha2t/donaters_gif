@@ -17,7 +17,7 @@ with open('token.secret', 'r') as file:
     token = file.read()
 
 r = patch(f'{token}/messages/{m_id}?wait=true',
-          json={'content': f'https://2buldzha2t.ru/donaters.gif?token={token_urlsafe(16)}'})
+          json={'content': f'https://2buldzha2t.ru/top_donaters.gif?token={token_urlsafe(16)}'})
 
 if r.status_code != 200:
     print('Error.', r.text)

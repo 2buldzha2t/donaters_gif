@@ -1,6 +1,5 @@
 selenium
 pillow
 imageio
-Selenium-Screenshot
 tqdm
 requests
