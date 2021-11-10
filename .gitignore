@@ -1,0 +1,6 @@
+screens/
+venv
+.idea
+*.secret
+*.gif
+*.png
